@@ -29,7 +29,7 @@ function Div() {
   );
 }
 
-function Flagment() {
+function Fragment() {
   return (
     <>
       <p>b</p>
@@ -48,7 +48,7 @@ function App() {
       ]} samples={500} />
       <BenchmarkSuite components={[
         {name: "Div", component: Div},
-        {name: "Flagment", component: Flagment}
+        {name: "Fragment", component: Fragment}
       ]} samples={500} />
     </>
   );
